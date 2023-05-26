@@ -1,5 +1,6 @@
 package setup;
 import com.google.gson.Gson;
+import pages.Item;
 
 public class Helper {
     private Helper() {
