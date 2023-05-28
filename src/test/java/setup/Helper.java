@@ -1,13 +1,13 @@
 package setup;
 import com.google.gson.Gson;
-import pages.Item;
+import pages.Goods;
 
 public class Helper {
     private Helper() {
     }
 
-    public static Item initFromJsonItem(String data){
+    public static Goods initFromJsonItem(String data){
         Gson gson = new Gson();
-        return (Item)gson.fromJson(data, Item.class);
+        return (Goods)gson.fromJson(data, Goods.class);
     }
 }
